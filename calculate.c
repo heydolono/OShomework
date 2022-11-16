@@ -29,7 +29,7 @@ return(Numeral * SecondNumeral);
 }
 else if(strncmp(Operation, "/", 1) == 0)
 {
-printf("Делитель: "); 
+printf("Делитель:  "); 
 scanf("%f", &SecondNumeral); 
 if(SecondNumeral == 0)
 {
